@@ -6,7 +6,122 @@
     <title>F1 Contest 1 Pravin Patil</title>
 </head>
 <body>
-    <h1>Pravin Patil</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, dicta.</p>
+   <header>
+    <h1>Mumbai</h1>
+   <p>The City Of Dreams...!</p>
+   </header>
+   <nav>
+    <a href="#Description">Description | </a>
+    <a href="#Attraction"> Attraction | </a>
+    <a href="#Statistics"> Statistics |</a>
+    <a href="#Feedback"> Feedback |</a>
+    <a href="#Quotes"> Quotes |</a>
+    <a href="#Contacts"> Contacts</a>
+   </nav>
+   <br>
+   <section id="Description">
+    <h2>Discover Mumbai</h2>
+    <img src="/Mumbai-Img.jpg" width="400px">
+    <p>Mumbai is India's largest city, and one of the world's most populous cities. It is the financial capital of India and a global city.</p>
+   </section>
+
+   <section id="Attraction">
+   <h2>Attraction</h2>
+   <h3>Main Attraction</h3>
+   <ol>
+    <li>GateWay Of India</li>
+    <li>Hotel Taj</li>
+    <li>Beach</li>
+   </ol>
+
+   <h3>Local Favoriate</h3>
+   <ul type="disc">
+    <li>Vada Paav</li>
+    <li>Paav Bhaji</li>
+    <li>Taj Tea</li>
+    <ul type ="circle">
+        <li>Juhu Beach</li>
+        <li>Madh Beach</li>
+        <li>Manori Beach</li>
+    </ul>
+   </ul>
+   </section>
+
+   <section id="Statistics">
+   <h2>City Statistics</h2>
+   <table border="2">
+    <tr>
+        <th>Attributes</th>
+        <th>Values</th>
+    </tr>
+    <tr>
+        <td>Population</td>
+        <td>22 Million</td>
+    </tr>
+    <tr>
+        <td>Landmarks</td>
+        <td>100</td>
+    </tr>
+    <tr>
+        <td>Parks</td>
+        <td>150</td>
+    </tr>
+    <tr>
+        <td>Schools</td>
+        <td>500</td>
+    </tr>
+    <tr>
+        <td>Beaches</td>
+        <td>15</td>
+    </tr>
+   </table>
+</section>
+   <br>
+   <section id="Feedback">
+   <h2>Feedback</h2>
+   <form method="post">
+
+    <label for="name">Name : </label>
+    <input type="text" id="name" name="name" required><br>
+    <label for="email">Email : </label>
+    <input type="email" id="email" name="email" required><br>
+    <Label for="Age">Age : </Label>
+    <input type="number" id="Age" name="Age" min="1" max="100" required><br>
+    <label for="Attraction">Favoriate Attraction : </label>
+    <select id="Attraction" name="Attraction" required>
+        <Option value="Juhu Beach">Juhu Beach</Option>
+        <option value="Taj Hotel">Taj Hotel</option>
+        <option value="GateWay-of-india">GateWay-of-india</option>
+    </select><br>
+    <label for="Comments">Comments : </label>
+    <textarea id="Comments"></textarea><br>
+    Newsletter :
+    <input type="checkbox" id="News-letter" name="News-letter" required>
+    <label for="News-letter">Subscribe to Our Newsletter</label><br>
+    <button type="submit" value="submit">Submit</button>
+    </form>
+    </section>
+
+
+    <section id="Quotes">
+    <span>
+        <h2>What Citizens Says</h2>
+        <p>"Mumbai is the only city that never stops." - Citizens</p>
+        <p>"Life is tough in Mumbai when you are alone." - Kartik Aaryan</p>
+    </span>
+   </section>
+
+    <section id="Contacts">
+        <h2>Contact Us</h2>
+        <address>
+            <p><i>Wankhede Tourism Office</i><br>
+            <i>Wankhede Stadium ,400001</i><br>
+            <i>Email: <a href="info@wankhedestadium.com">info@wankhedestadium.com</a></i><br>
+            <i>Phone : 022-2279-5500</i></p>
+        </address>
+    </section>
+    <footer>
+        <p>&copy; 2023 Wankhede Tourism, Mumbai. Drive into Dreams...!</p>
+    </footer>
 </body>
 </html>
